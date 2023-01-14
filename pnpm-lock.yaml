@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@portabletext/react': ^2.0.0
+  '@sanity/icons': ^2.2.2
   '@sanity/image-url': ^1.0.1
   '@sanity/ui': ^1.0.12
   '@sanity/vision': ^3.2.1
@@ -33,6 +34,7 @@ specifiers:
 
 dependencies:
   '@portabletext/react': 2.0.0_react@18.2.0
+  '@sanity/icons': 2.2.2_react@18.2.0
   '@sanity/image-url': 1.0.1
   '@sanity/ui': 1.0.14_23mhwjhnzfjwvdn7ol54k26zom
   '@sanity/vision': 3.2.3_23mhwjhnzfjwvdn7ol54k26zom
@@ -41,7 +43,7 @@ dependencies:
   date-fns: 2.29.3
   intl-segmenter-polyfill: 0.4.4
   next: 13.1.2_biqbaboplfbrettd7655fr4n2y
-  next-sanity: 4.0.4_hvsd3qgnzttz2ujiuct5beov6m
+  next-sanity: 4.0.4_i44e4ps4vu56gf4udizi5zvqzy
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-is: 18.2.0
@@ -4422,7 +4424,7 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /next-sanity/4.0.4_hvsd3qgnzttz2ujiuct5beov6m:
+  /next-sanity/4.0.4_i44e4ps4vu56gf4udizi5zvqzy:
     resolution: {integrity: sha512-RFbH8R0LOqI/0gzQ0VNssqL4wblSGaxYLbURaXUXqOyMTHEHAMKfiWX3sDw8HOjkx/svVLvF7703JBviwoX7XA==}
     engines: {node: '>=16'}
     peerDependencies:
@@ -4446,6 +4448,7 @@ packages:
         optional: true
     dependencies:
       '@sanity/client': 4.0.1
+      '@sanity/icons': 2.2.2_react@18.2.0
       '@sanity/preview-kit': 1.2.22_react@18.2.0
       '@sanity/ui': 1.0.14_23mhwjhnzfjwvdn7ol54k26zom
       '@sanity/webhook': 2.0.0
